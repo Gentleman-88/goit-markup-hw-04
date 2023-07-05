@@ -157,6 +157,10 @@ img{
         letter-spacing: 0.02em;
 }
 
+.navigation::after{
+
+}
+
 .navigation:hover,
 .navigation:focus{
     color: #404bbf;
@@ -335,9 +339,26 @@ img{
         letter-spacing: 0.4px;
 }
 
+.customers{
+    padding: 120px 0;
+}
 
 .section-four-p{
     text-align: center;
+}
+
+
+/*--section-customers--*/
+
+.customers-headline{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.72px;
 }
 
 
