@@ -359,6 +359,10 @@ img{
     letter-spacing: 0.72px;
 }
 
+.castomers-ul{
+    display: flex;
+}
+
 
 /*--footer--*/
 
