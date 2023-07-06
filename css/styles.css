@@ -213,6 +213,7 @@ img{
 /*--section-one--*/
 
 .section-one{
+    background-image: url();
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -265,6 +266,30 @@ img{
     padding: 120px 0;
 }
 
+.section-two-icons-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F4FD;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+
+.section-two-icons{
+    display: flex;
+    gap: 24px;
+}
+
+.section-two-svg{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .section-two-headlines{
         margin-bottom: 8px;
