@@ -347,7 +347,7 @@ ul{
 
 /*--section-four--*/
 
-.about-worker{
+.worker-card{
     padding: 32px 0;
 }
 
@@ -387,9 +387,7 @@ ul{
     text-align: center;
 }
 
-.section-four-social{
-    margin: 32px 0;
-}
+
 
 
 .section-four-ul{
@@ -399,6 +397,7 @@ ul{
 }
 
 .section-four-icon{
+    margin-bottom: 32px;
     display: flex;
     background-color: #4D5AE5;
     fill: #F4F4FD;
