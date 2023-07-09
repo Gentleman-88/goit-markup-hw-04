@@ -163,7 +163,7 @@ ul{
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
-        color: #2E2F42;
+        color: #404bbf;
         letter-spacing: 0.02em;
 }
 
@@ -176,7 +176,7 @@ ul{
 }
 
 .header-list::after{
-    content: "";
+    content: '';
     display: block;
     width: 100%;
     height: 4px;
@@ -217,6 +217,8 @@ ul{
 /*--section-one--*/
 
 .section-one{
+    margin: 0 auto;
+    max-width: 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -259,7 +261,7 @@ ul{
         letter-spacing: 0.04em;
         color: #FFFFFF;
         cursor: pointer;
-        
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-order:hover,
@@ -616,15 +618,19 @@ color: #FFFFFF;
 
 .portfolio-a-card{
   display: block;
-transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-a-card:hover .portfolio-box-overlay,
 .portfolio-a-card:focus .portfolio-box-overlay{
+        transform: translateY(0%);
+}
+
+.portfolio-a-card:hover,
+.portfolio-a-card:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
             0px 1px 1px rgba(46, 47, 66, 0.16),
             0px 2px 1px rgba(46, 47, 66, 0.08);
-        transform: translateY(0%);
 }
 
 .portfolio-box{
@@ -634,17 +640,20 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .portfolio-box-overlay{
     position: absolute;
+    padding: 40px 32px;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
         background-color: var(--color-for-logo);
-        color: #FFFFFF;
+        color: #f4f4fd;;
         padding: 10px;
-        line-height: 1.2;
+        letter-spacing: 0.02em;
+        line-height: 1.5;
         overflow: auto;
         transform: translateY(100%);
         transition: transform 250ms linear;
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-img{
