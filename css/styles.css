@@ -647,7 +647,6 @@ color: #FFFFFF;
         height: 100%;
         background-color: var(--color-for-logo);
         color: #f4f4fd;;
-        padding: 10px;
         letter-spacing: 0.02em;
         line-height: 1.5;
         overflow: auto;
