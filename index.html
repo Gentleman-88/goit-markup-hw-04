@@ -62,7 +62,9 @@
           <h1 class="section-one-headline">
             Effective Solutions for Your Business
           </h1>
-          <button type="button" class="button-order">Order Service</button>
+          <button type="button" data-modal="myModal" class="button-order">
+            Order Service
+          </button>
         </div>
       </section>
       <!--block-2-->
@@ -468,6 +470,15 @@
         </div>
       </div>
     </footer>
+    <div class="data-modal is-hidden" data-modal="myModal">
+      <div class="data-modal-container">
+        <button
+          type="button"
+          data-modal-close=""
+          class="data-modal-button"
+        ></button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
