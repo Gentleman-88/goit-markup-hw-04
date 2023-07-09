@@ -369,10 +369,6 @@ ul{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.section-four-ul{
-    display: flex;
-    gap: 24px; 
-}
 
 .section-four-headlines{
     margin-bottom: 8px;
@@ -396,13 +392,13 @@ ul{
 }
 
 
-.section-four-ul-icons{
+.section-four-ul{
     display: flex;
     justify-content: center;
     gap: 24px;
 }
 
-.section-four-icon {
+.section-four-icon{
     display: flex;
     background-color: #4D5AE5;
     fill: #F4F4FD;
