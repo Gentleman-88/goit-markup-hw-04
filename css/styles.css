@@ -603,6 +603,32 @@ color: #FFFFFF;
     color: #F4F4FD;
 }
 
+.footer-label{}
+
+
+.button-form-footer{
+    background-color: var(--color-for-logo);
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    position: relative;
+    border-radius: 4px;
+    border-style: none;
+    color: #FFF;
+}
+
+.footer-icon-send{
+    position: absolute;
+width: 24px;
+height: 24px;
+fill: #FFF;
+}
+
 /*--data-modal--*/
 
 .data-modal{
